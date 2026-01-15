@@ -5,7 +5,7 @@ num = 67
 # define a flag variable
 flag = False
 if num == 1:
-    print(num, "is not a prime number")
+    print(num, "...")
 elif num > 1:
     # check for factors
     for i in range(2, num):
@@ -16,6 +16,6 @@ elif num > 1:
             break
     # check if flag is True
     if flag:
-        print(num, "is not a prime number")
+        print(num, "...")
     else:
-        print(num, "is a prime number")
+        print(num, "...")
